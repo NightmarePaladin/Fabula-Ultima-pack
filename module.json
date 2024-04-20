@@ -1,0 +1,50 @@
+{
+  "id": "fabula-classes-and-skills",
+  "title": "Fabula Classes and SKills",
+  "version": "1.0.0",
+  "url":"https://github.com/NightmarePaladin/Fabula-Content",
+  "manifest": "",
+  "download":"",
+  "scripts":"init.js",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "authors": [
+    {
+      "name": "Knighmare"
+    },
+    {
+      "name": "Bunny"
+    },
+    {
+      "name": "Gin2Win"
+    }
+  ],
+  "packs": [
+    {
+      "name": "classes--skills",
+      "label": "Classes / Skills",
+      "path": "packs/classes--skills",
+      "type": "Actor",
+      "system": "projectfu",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "fabulaultima",
+        "type": "system"
+      },
+      {
+        "id": "projectfu",
+        "type": "system"
+      }
+    ]
+  },
+  "description": "Required Systems: https://github.com/League-of-Fabulous-Developers/FoundryVTT-Fabula-Ultima and https://github.com/razage/fabula-ultima-unofficial"
+}
